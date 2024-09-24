@@ -23,6 +23,8 @@ export class HomeComponent implements OnInit {
   }
 
   navigateToQuiz() {
-    this.router.navigate(['/quiz', this.playerName]);
+    this.authService.user = { id: 1, username: this.playerName };
+    this.authService.saveUser();
+    this.router.navigate(['/categorie']);
   }
 }
