@@ -1,11 +1,14 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from "@angular/common/http";
+import { Question } from '../models/questions.model';
+import { QuestionAnswers } from '../models/questionAnswers.model';
+import { Answer } from '../models/answer.model';
 
 @Injectable({
   providedIn: 'root'
 })
 export class QuizService {
-  quizContent: any[] = [];
+  quizContent: QuestionAnswers[] = [];
   playerAnswers: {questionId: number; answer: string}[] = [];
   score = 0;
   isQuizFinished = false;
@@ -15,18 +18,25 @@ export class QuizService {
 
   checkAnswers() {
     this.score = 0;
-    for (let i = 0; i < this.playerAnswers.length; i++) {
-      const question = this.quizContent.find((q) => q.id === this.playerAnswers[i].questionId);
-      if (!question) continue;
-      for (let j = 0; j < question.answers.length; j++) {
-        const currentAnswer = question.answers[j];
-        if (currentAnswer.isCorrect && this.playerAnswers[i].answer === currentAnswer.answerLabel) {
-          this.score += 1;
-          break;
-        }
+    for(const playerAnswer of this.playerAnswers) {
+      const correctAnswer = this.quizContent.find((q) => q.question.id === playerAnswer.questionId)?.answers.find((a) => a.isCorrect);
+      if (correctAnswer?.answerLabel === playerAnswer.answer) {
+        this.score++;
       }
     }
-    this.isQuizFinished = true;
+  }
+
+  getQuizContent(categoryId: number): void {
+    this.http.get<Question[]>('http://localhost:3000/questions?categoryId='+ categoryId).subscribe((questions: Question[]) => {
+      for (const question of questions) {
+        this.http.get<Answer[]>(`http://localhost:3000/answers?questionId=${question.id}`).subscribe((answers: Answer[]) => {
+          this.quizContent.push({
+            question,
+            answers
+          });
+        });
+      }
+    });
   }
 
   addAnswer(answer: string, questionId: number) {
@@ -36,20 +46,6 @@ export class QuizService {
       return;
     }
     this.playerAnswers.push({questionId, answer});
-  }
-
-  getQuizContent() {
-    this.http.get('http://localhost:3000/questions').subscribe((questions: any) => {
-      for (const question of questions) {
-        this.http.get(`http://localhost:3000/answers?questionId=${question.id}`).subscribe((answers: any) => {
-          this.quizContent.push({
-              id: question.id,
-              question: question.questionLabel,
-              answers
-          });
-        });
-      }
-    });
   }
 
   resetQuiz() {

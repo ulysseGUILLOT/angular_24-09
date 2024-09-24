@@ -1,5 +1,8 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { QuizService } from "../../shared/services/quiz.service";
+import { CategorieService } from 'src/app/categorie/categorie.service';
+import { Question } from 'src/app/shared/models/questions.model';
+import { QuestionAnswers } from 'src/app/shared/models/questionAnswers.model';
 
 @Component({
   selector: 'app-question',
@@ -7,11 +10,11 @@ import { QuizService } from "../../shared/services/quiz.service";
   styleUrls: ['./question.component.scss']
 })
 export class QuestionComponent implements OnInit {
-  quizContent: any[] = this.quizService.quizContent;
+  quizContent!: QuestionAnswers[]
 
   constructor(private quizService: QuizService) { }
 
   ngOnInit(): void {
-    this.quizService.getQuizContent();
+    this.quizContent = this.quizService.quizContent;
   }
 }

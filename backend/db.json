@@ -1,485 +1,1266 @@
 {
+  "categories": [
+    {
+      "id": 1,
+      "name": "Angular"
+    },
+    {
+      "id": 2,
+      "name": "ReactJS"
+    },
+    {
+      "id": 3,
+      "name": "Symfony"
+    }
+  ],
   "questions": [
     {
       "id": 1,
+      "categoryId": 1,
       "questionLabel": "What is a component in Angular?"
     },
     {
       "id": 2,
+      "categoryId": 1,
       "questionLabel": "Explain the purpose of the NgModule in Angular."
     },
     {
       "id": 3,
+      "categoryId": 1,
       "questionLabel": "How do you create a new Angular application?"
     },
     {
-      "id": 4,
-      "questionLabel": "What is data binding in Angular, and what are the different types of data binding?"
+      "id": 21,
+      "categoryId": 2,
+      "questionLabel": "What is the virtual DOM in React?"
     },
     {
-      "id": 5,
-      "questionLabel": "Explain the difference between {{}} (interpolation) and [property] (property binding) in Angular templates."
+      "id": 22,
+      "categoryId": 2,
+      "questionLabel": "How do you create a React component using ES6 classes?"
     },
     {
-      "id": 6,
-      "questionLabel": "What is event binding in Angular, and how is it implemented?"
+      "id": 23,
+      "categoryId": 2,
+      "questionLabel": "What are props in React and how are they used?"
     },
     {
-      "id": 7,
-      "questionLabel": "What is Angular CLI, and how do you use it to generate components?"
+      "id": 24,
+      "categoryId": 2,
+      "questionLabel": "Explain the concept of state in React."
     },
     {
-      "id": 8,
-      "questionLabel": "What is a directive in Angular? Can you name some built-in directives?"
+      "id": 25,
+      "categoryId": 2,
+      "questionLabel": "What are React hooks and name two commonly used hooks."
     },
     {
-      "id": 9,
-      "questionLabel": "Explain the purpose of the Angular router and how to configure routes in an Angular application."
+      "id": 26,
+      "categoryId": 2,
+      "questionLabel": "How does React handle form inputs?"
     },
     {
-      "id": 10,
-      "questionLabel": "What is dependency injection in Angular, and why is it important?"
+      "id": 27,
+      "categoryId": 2,
+      "questionLabel": "What is JSX and why is it used in React?"
     },
     {
-      "id": 11,
-      "questionLabel": "How do you communicate between parent and child components in Angular?"
+      "id": 28,
+      "categoryId": 2,
+      "questionLabel": "Explain the lifecycle methods of a React component."
     },
     {
-      "id": 12,
-      "questionLabel": "What is a service in Angular, and when should you use it?"
+      "id": 29,
+      "categoryId": 2,
+      "questionLabel": "What is the purpose of keys in lists in React?"
     },
     {
-      "id": 13,
-      "questionLabel": "What is the purpose of the ngFor directive in Angular?"
+      "id": 30,
+      "categoryId": 2,
+      "questionLabel": "How do you manage state in a large React application?"
     },
     {
-      "id": 14,
-      "questionLabel": "Explain the concept of modules in Angular and their role in organizing an application."
+      "id": 31,
+      "categoryId": 2,
+      "questionLabel": "What is React Router and how is it used?"
     },
     {
-      "id": 15,
-      "questionLabel": "What is Angular CLI's ng serve command used for?"
+      "id": 32,
+      "categoryId": 2,
+      "questionLabel": "Explain the difference between functional and class components in React."
     },
     {
-      "id": 16,
-      "questionLabel": "What is Angular's two-way data binding, and how does it work?"
+      "id": 33,
+      "categoryId": 2,
+      "questionLabel": "How can you optimize performance in a React application?"
     },
     {
-      "id": 17,
-      "questionLabel": "What is Angular's trackBy function, and why is it used with ngFor?"
+      "id": 34,
+      "categoryId": 2,
+      "questionLabel": "What is Context API in React and when should it be used?"
     },
     {
-      "id": 18,
-      "questionLabel": "How can you handle HTTP requests in Angular?"
+      "id": 35,
+      "categoryId": 2,
+      "questionLabel": "How do you handle side effects in React?"
     },
     {
-      "id": 19,
-      "questionLabel": "What are Angular pipes, and can you give some examples of built-in pipes?"
+      "id": 36,
+      "categoryId": 2,
+      "questionLabel": "What are Higher-Order Components (HOC) in React?"
     },
     {
-      "id": 20,
-      "questionLabel": "Explain the concept of lazy loading in Angular and when it's beneficial."
+      "id": 37,
+      "categoryId": 2,
+      "questionLabel": "Explain the concept of reconciliation in React."
+    },
+    {
+      "id": 38,
+      "categoryId": 2,
+      "questionLabel": "How do you perform conditional rendering in React?"
+    },
+    {
+      "id": 39,
+      "categoryId": 2,
+      "questionLabel": "What is PropTypes in React?"
+    },
+    {
+      "id": 40,
+      "categoryId": 2,
+      "questionLabel": "How do you handle error boundaries in React?"
+    },
+    {
+      "id": 41,
+      "categoryId": 3,
+      "questionLabel": "What is Symfony?"
+    },
+    {
+      "id": 42,
+      "categoryId": 3,
+      "questionLabel": "How do you create a new Symfony project?"
+    },
+    {
+      "id": 43,
+      "categoryId": 3,
+      "questionLabel": "What is a bundle in Symfony?"
+    },
+    {
+      "id": 44,
+      "categoryId": 3,
+      "questionLabel": "Explain the concept of Dependency Injection in Symfony."
+    },
+    {
+      "id": 45,
+      "categoryId": 3,
+      "questionLabel": "How does Symfony handle routing?"
+    },
+    {
+      "id": 46,
+      "categoryId": 3,
+      "questionLabel": "What are Doctrine ORM and its role in Symfony?"
+    },
+    {
+      "id": 47,
+      "categoryId": 3,
+      "questionLabel": "How do you create a controller in Symfony?"
+    },
+    {
+      "id": 48,
+      "categoryId": 3,
+      "questionLabel": "What is Twig in Symfony?"
+    },
+    {
+      "id": 49,
+      "categoryId": 3,
+      "questionLabel": "Explain the Symfony Console component."
+    },
+    {
+      "id": 50,
+      "categoryId": 3,
+      "questionLabel": "How do you manage configurations in Symfony?"
+    },
+    {
+      "id": 51,
+      "categoryId": 3,
+      "questionLabel": "What is the purpose of Symfony Flex?"
+    },
+    {
+      "id": 52,
+      "categoryId": 3,
+      "questionLabel": "How does Symfony handle security and authentication?"
+    },
+    {
+      "id": 53,
+      "categoryId": 3,
+      "questionLabel": "What are Symfony Events and how are they used?"
+    },
+    {
+      "id": 54,
+      "categoryId": 3,
+      "questionLabel": "Explain the concept of Forms in Symfony."
+    },
+    {
+      "id": 55,
+      "categoryId": 3,
+      "questionLabel": "How do you perform validation in Symfony?"
+    },
+    {
+      "id": 56,
+      "categoryId": 3,
+      "questionLabel": "What is the purpose of the `.env` file in Symfony?"
+    },
+    {
+      "id": 57,
+      "categoryId": 3,
+      "questionLabel": "How do you handle migrations in Symfony using Doctrine?"
+    },
+    {
+      "id": 58,
+      "categoryId": 3,
+      "questionLabel": "What is the role of the `services.yaml` file in Symfony?"
+    },
+    {
+      "id": 59,
+      "categoryId": 3,
+      "questionLabel": "Explain how to create and use custom services in Symfony."
+    },
+    {
+      "id": 60,
+      "categoryId": 3,
+      "questionLabel": "How does Symfony integrate with APIs?"
     }
   ],
   "answers": [
     {
       "questionId": 1,
+      "categoryId": 1,
       "answerLabel": "A reusable building block for the user interface",
       "isCorrect": true
     },
     {
       "questionId": 1,
+      "categoryId": 1,
       "answerLabel": "A style in Angular",
       "isCorrect": false
     },
     {
       "questionId": 1,
+      "categoryId": 1,
       "answerLabel": "A service for handling HTTP requests",
       "isCorrect": false
     },
     {
       "questionId": 1,
+      "categoryId": 1,
       "answerLabel": "A routing configuration",
       "isCorrect": false
     },
     {
       "questionId": 2,
+      "categoryId": 1,
       "answerLabel": "NgModule is used to declare and configure modules in Angular applications.",
       "isCorrect": true
     },
     {
       "questionId": 2,
+      "categoryId": 1,
       "answerLabel": "NgModule is a component in Angular.",
       "isCorrect": false
     },
     {
       "questionId": 2,
+      "categoryId": 1,
       "answerLabel": "NgModule is used for data binding in Angular.",
       "isCorrect": false
     },
     {
       "questionId": 2,
+      "categoryId": 1,
       "answerLabel": "NgModule is a directive in Angular.",
       "isCorrect": false
     },
     {
       "questionId": 3,
+      "categoryId": 1,
       "answerLabel": "You can create a new Angular application using the Angular CLI by running 'ng new app-name'.",
       "isCorrect": true
     },
     {
       "questionId": 3,
+      "categoryId": 1,
       "answerLabel": "You can create a new Angular application by writing HTML and CSS files.",
       "isCorrect": false
     },
     {
       "questionId": 3,
+      "categoryId": 1,
       "answerLabel": "You can create a new Angular application using pure JavaScript.",
       "isCorrect": false
     },
     {
       "questionId": 3,
+      "categoryId": 1,
       "answerLabel": "You can create a new Angular application using Python.",
       "isCorrect": false
     },
     {
-      "questionId": 4,
-      "answerLabel": "Data binding in Angular is a mechanism for synchronizing data between the component and the view.",
+      "questionId": 21,
+      "categoryId": 2,
+      "answerLabel": "A lightweight representation of the real DOM used for efficient updates.",
       "isCorrect": true
     },
     {
-      "questionId": 4,
-      "answerLabel": "Data binding in Angular is used for creating components.",
+      "questionId": 21,
+      "categoryId": 2,
+      "answerLabel": "A tool for styling React components.",
       "isCorrect": false
     },
     {
-      "questionId": 4,
-      "answerLabel": "Data binding in Angular is a routing feature.",
+      "questionId": 21,
+      "categoryId": 2,
+      "answerLabel": "A method for handling HTTP requests in React.",
       "isCorrect": false
     },
     {
-      "questionId": 4,
-      "answerLabel": "Data binding in Angular is only available for services.",
+      "questionId": 21,
+      "categoryId": 2,
+      "answerLabel": "A type of React component.",
       "isCorrect": false
     },
     {
-      "questionId": 5,
-      "answerLabel": "{{}} (interpolation) is used for displaying dynamic data in the template.",
+      "questionId": 22,
+      "categoryId": 2,
+      "answerLabel": "By extending the React.Component class and implementing a render method.",
       "isCorrect": true
     },
     {
-      "questionId": 5,
-      "answerLabel": "[property] (property binding) is used for displaying dynamic data in the template.",
+      "questionId": 22,
+      "categoryId": 2,
+      "answerLabel": "By creating a function that returns JSX.",
       "isCorrect": false
     },
     {
-      "questionId": 5,
-      "answerLabel": "{{}} (interpolation) is used for creating CSS styles.",
+      "questionId": 22,
+      "categoryId": 2,
+      "answerLabel": "By using the createReactClass method.",
       "isCorrect": false
     },
     {
-      "questionId": 5,
-      "answerLabel": "[property] (property binding) is used for creating services.",
+      "questionId": 22,
+      "categoryId": 2,
+      "answerLabel": "By writing HTML and CSS files separately.",
       "isCorrect": false
     },
     {
-      "questionId": 6,
-      "answerLabel": "Event binding in Angular is used to capture and respond to user interactions like clicks and keystrokes.",
+      "questionId": 23,
+      "categoryId": 2,
+      "answerLabel": "Props are read-only inputs passed from parent to child components.",
       "isCorrect": true
     },
     {
-      "questionId": 6,
-      "answerLabel": "Event binding in Angular is used for defining component styles.",
+      "questionId": 23,
+      "categoryId": 2,
+      "answerLabel": "Props are used to manage internal state of a component.",
       "isCorrect": false
     },
     {
-      "questionId": 6,
-      "answerLabel": "Event binding in Angular is used for defining routes.",
+      "questionId": 23,
+      "categoryId": 2,
+      "answerLabel": "Props are methods used to handle events.",
       "isCorrect": false
     },
     {
-      "questionId": 6,
-      "answerLabel": "Event binding in Angular is used for dependency injection.",
+      "questionId": 23,
+      "categoryId": 2,
+      "answerLabel": "Props are used to style React components.",
       "isCorrect": false
     },
     {
-      "questionId": 7,
-      "answerLabel": "Angular CLI (Command Line Interface) is a command-line tool for creating, building, and deploying Angular applications.",
+      "questionId": 24,
+      "categoryId": 2,
+      "answerLabel": "State represents the internal data of a component that can change over time.",
       "isCorrect": true
     },
     {
-      "questionId": 7,
-      "answerLabel": "Angular CLI is a component in Angular applications.",
+      "questionId": 24,
+      "categoryId": 2,
+      "answerLabel": "State is a read-only property passed from parent to child.",
       "isCorrect": false
     },
     {
-      "questionId": 7,
-      "answerLabel": "Angular CLI is a directive in Angular applications.",
+      "questionId": 24,
+      "categoryId": 2,
+      "answerLabel": "State is used for styling components.",
       "isCorrect": false
     },
     {
-      "questionId": 7,
-      "answerLabel": "Angular CLI is a service for handling HTTP requests.",
+      "questionId": 24,
+      "categoryId": 2,
+      "answerLabel": "State is a method for handling form submissions.",
       "isCorrect": false
     },
     {
-      "questionId": 8,
-      "answerLabel": "A directive in Angular is a marker on a DOM element that tells Angular to do something with that element.",
+      "questionId": 25,
+      "categoryId": 2,
+      "answerLabel": "Hooks are functions that let you use state and other React features in functional components. Common hooks include useState and useEffect.",
       "isCorrect": true
     },
     {
-      "questionId": 8,
-      "answerLabel": "A directive in Angular is a component.",
+      "questionId": 25,
+      "categoryId": 2,
+      "answerLabel": "Hooks are classes that extend React.Component.",
       "isCorrect": false
     },
     {
-      "questionId": 8,
-      "answerLabel": "A directive in Angular is a service.",
+      "questionId": 25,
+      "categoryId": 2,
+      "answerLabel": "Hooks are methods for handling HTTP requests.",
       "isCorrect": false
     },
     {
-      "questionId": 8,
-      "answerLabel": "A directive in Angular is a module.",
+      "questionId": 25,
+      "categoryId": 2,
+      "answerLabel": "Hooks are used to style React components.",
       "isCorrect": false
     },
     {
-      "questionId": 9,
-      "answerLabel": "The Angular router is a library for navigating between views and components.",
+      "questionId": 26,
+      "categoryId": 2,
+      "answerLabel": "By using controlled components where form data is handled by the component's state.",
       "isCorrect": true
     },
     {
-      "questionId": 9,
-      "answerLabel": "The Angular router is used for handling HTTP requests.",
+      "questionId": 26,
+      "categoryId": 2,
+      "answerLabel": "By directly manipulating the DOM elements.",
       "isCorrect": false
     },
     {
-      "questionId": 9,
-      "answerLabel": "The Angular router is used for data binding in Angular.",
+      "questionId": 26,
+      "categoryId": 2,
+      "answerLabel": "By using external libraries only.",
       "isCorrect": false
     },
     {
-      "questionId": 9,
-      "answerLabel": "The Angular router is used for event binding in Angular.",
+      "questionId": 26,
+      "categoryId": 2,
+      "answerLabel": "By storing form data in browser cookies.",
       "isCorrect": false
     },
     {
-      "questionId": 10,
-      "answerLabel": "Dependency injection in Angular is a design pattern used to provide instances of classes with their dependencies.",
+      "questionId": 27,
+      "categoryId": 2,
+      "answerLabel": "JSX is a syntax extension that allows mixing HTML with JavaScript in React components.",
       "isCorrect": true
     },
     {
-      "questionId": 10,
-      "answerLabel": "Dependency injection in Angular is a way to inject styles into components.",
+      "questionId": 27,
+      "categoryId": 2,
+      "answerLabel": "JSX is a library for styling React components.",
       "isCorrect": false
     },
     {
-      "questionId": 10,
-      "answerLabel": "Dependency injection in Angular is a way to create routes in an application.",
+      "questionId": 27,
+      "categoryId": 2,
+      "answerLabel": "JSX is a method for handling events in React.",
       "isCorrect": false
     },
     {
-      "questionId": 10,
-      "answerLabel": "Dependency injection in Angular is used for data binding.",
+      "questionId": 27,
+      "categoryId": 2,
+      "answerLabel": "JSX is a type of React component.",
       "isCorrect": false
     },
     {
-      "questionId": 11,
-      "answerLabel": "Communication between parent and child components in Angular can be achieved through input properties and output events.",
+      "questionId": 28,
+      "categoryId": 2,
+      "answerLabel": "Lifecycle methods are special methods in class components that are called at different stages of a component's existence, such as componentDidMount and componentWillUnmount.",
       "isCorrect": true
     },
     {
-      "questionId": 11,
-      "answerLabel": "Communication between parent and child components in Angular is not possible.",
+      "questionId": 28,
+      "categoryId": 2,
+      "answerLabel": "Lifecycle methods are used to style components.",
       "isCorrect": false
     },
     {
-      "questionId": 11,
-      "answerLabel": "Communication between parent and child components in Angular can only be done using services.",
+      "questionId": 28,
+      "categoryId": 2,
+      "answerLabel": "Lifecycle methods handle form submissions.",
       "isCorrect": false
     },
     {
-      "questionId": 11,
-      "answerLabel": "Communication between parent and child components in Angular can only be done using event binding.",
+      "questionId": 28,
+      "categoryId": 2,
+      "answerLabel": "Lifecycle methods are used for routing configuration.",
       "isCorrect": false
     },
     {
-      "questionId": 12,
-      "answerLabel": "A service in Angular is a class that provides specific functionality and can be injected into components and other services.",
+      "questionId": 29,
+      "categoryId": 2,
+      "answerLabel": "Keys help React identify which items have changed, are added, or are removed, enhancing performance during re-rendering.",
       "isCorrect": true
     },
     {
-      "questionId": 12,
-      "answerLabel": "A service in Angular is a type of component.",
+      "questionId": 29,
+      "categoryId": 2,
+      "answerLabel": "Keys are used to style list items.",
       "isCorrect": false
     },
     {
-      "questionId": 12,
-      "answerLabel": "A service in Angular is a type of directive.",
+      "questionId": 29,
+      "categoryId": 2,
+      "answerLabel": "Keys handle event binding in lists.",
       "isCorrect": false
     },
     {
-      "questionId": 12,
-      "answerLabel": "A service in Angular is a type of module.",
+      "questionId": 29,
+      "categoryId": 2,
+      "answerLabel": "Keys are used to manage state in lists.",
       "isCorrect": false
     },
     {
-      "questionId": 13,
-      "answerLabel": "The ngFor directive in Angular is used for iterating over a list of items and rendering them in the template.",
+      "questionId": 30,
+      "categoryId": 2,
+      "answerLabel": "By using state management libraries like Redux or Context API to manage and share state across the application.",
       "isCorrect": true
     },
     {
-      "questionId": 13,
-      "answerLabel": "The ngFor directive in Angular is used for defining routes.",
+      "questionId": 30,
+      "categoryId": 2,
+      "answerLabel": "By storing all state in individual components without any global management.",
       "isCorrect": false
     },
     {
-      "questionId": 13,
-      "answerLabel": "The ngFor directive in Angular is used for handling HTTP requests.",
+      "questionId": 30,
+      "categoryId": 2,
+      "answerLabel": "By using only local storage for state management.",
       "isCorrect": false
     },
     {
-      "questionId": 13,
-      "answerLabel": "The ngFor directive in Angular is used for event binding.",
+      "questionId": 30,
+      "categoryId": 2,
+      "answerLabel": "By handling state exclusively with props.",
       "isCorrect": false
     },
     {
-      "questionId": 14,
-      "answerLabel": "Modules in Angular are used to organize the application into cohesive blocks of functionality.",
+      "questionId": 31,
+      "categoryId": 2,
+      "answerLabel": "React Router is a library used to manage navigation and routing within a React application.",
       "isCorrect": true
     },
     {
-      "questionId": 14,
-      "answerLabel": "Modules in Angular are used for data binding.",
+      "questionId": 31,
+      "categoryId": 2,
+      "answerLabel": "React Router is used for styling React components.",
       "isCorrect": false
     },
     {
-      "questionId": 14,
-      "answerLabel": "Modules in Angular are used for routing configuration.",
+      "questionId": 31,
+      "categoryId": 2,
+      "answerLabel": "React Router handles HTTP requests.",
       "isCorrect": false
     },
     {
-      "questionId": 14,
-      "answerLabel": "Modules in Angular are used for handling HTTP requests.",
+      "questionId": 31,
+      "categoryId": 2,
+      "answerLabel": "React Router is a type of React component.",
       "isCorrect": false
     },
     {
-      "questionId": 15,
-      "answerLabel": "Angular CLI's 'ng serve' command is used to compile and serve an Angular application locally for development purposes.",
+      "questionId": 32,
+      "categoryId": 2,
+      "answerLabel": "Functional components are plain JavaScript functions that return JSX, while class components are ES6 classes that extend React.Component and have access to lifecycle methods.",
       "isCorrect": true
     },
     {
-      "questionId": 15,
-      "answerLabel": "Angular CLI's 'ng serve' command is used to deploy an Angular application to a production server.",
+      "questionId": 32,
+      "categoryId": 2,
+      "answerLabel": "Functional components can have state, whereas class components cannot.",
       "isCorrect": false
     },
     {
-      "questionId": 15,
-      "answerLabel": "Angular CLI's 'ng serve' command is used for data binding.",
+      "questionId": 32,
+      "categoryId": 2,
+      "answerLabel": "Class components are faster than functional components.",
       "isCorrect": false
     },
     {
-      "questionId": 15,
-      "answerLabel": "Angular CLI's 'ng serve' command is used for event binding.",
+      "questionId": 32,
+      "categoryId": 2,
+      "answerLabel": "There is no difference between functional and class components.",
       "isCorrect": false
     },
     {
-      "questionId": 16,
-      "answerLabel": "Angular's two-way data binding combines property binding and event binding to automatically keep the view and the component data in sync.",
+      "questionId": 33,
+      "categoryId": 2,
+      "answerLabel": "By using shouldComponentUpdate, React.memo, and optimizing state management to prevent unnecessary re-renders.",
       "isCorrect": true
     },
     {
-      "questionId": 16,
-      "answerLabel": "Angular's two-way data binding is used for routing configuration.",
+      "questionId": 33,
+      "categoryId": 2,
+      "answerLabel": "By increasing the number of components in the application.",
       "isCorrect": false
     },
     {
-      "questionId": 16,
-      "answerLabel": "Angular's two-way data binding is used for dependency injection.",
+      "questionId": 33,
+      "categoryId": 2,
+      "answerLabel": "By avoiding the use of hooks in functional components.",
       "isCorrect": false
     },
     {
-      "questionId": 16,
-      "answerLabel": "Angular's two-way data binding is used for handling HTTP requests.",
+      "questionId": 33,
+      "categoryId": 2,
+      "answerLabel": "By disabling the virtual DOM.",
       "isCorrect": false
     },
     {
-      "questionId": 17,
-      "answerLabel": "Angular's trackBy function is used to improve the performance of ngFor by identifying unique items in the iteration.",
+      "questionId": 34,
+      "categoryId": 2,
+      "answerLabel": "Context API allows for global state management by providing a way to pass data through the component tree without having to pass props down manually at every level.",
       "isCorrect": true
     },
     {
-      "questionId": 17,
-      "answerLabel": "Angular's trackBy function is used for defining routes.",
+      "questionId": 34,
+      "categoryId": 2,
+      "answerLabel": "Context API is used for styling React components.",
       "isCorrect": false
     },
     {
-      "questionId": 17,
-      "answerLabel": "Angular's trackBy function is used for event binding.",
+      "questionId": 34,
+      "categoryId": 2,
+      "answerLabel": "Context API handles HTTP requests in React.",
       "isCorrect": false
     },
     {
-      "questionId": 17,
-      "answerLabel": "Angular's trackBy function is used for dependency injection.",
+      "questionId": 34,
+      "categoryId": 2,
+      "answerLabel": "Context API is a type of React component.",
       "isCorrect": false
     },
     {
-      "questionId": 18,
-      "answerLabel": "HTTP requests in Angular can be handled using the HttpClient module to send requests and receive responses from a server.",
+      "questionId": 35,
+      "categoryId": 2,
+      "answerLabel": "By using the useEffect hook in functional components or lifecycle methods in class components to handle side effects like data fetching or subscriptions.",
       "isCorrect": true
     },
     {
-      "questionId": 18,
-      "answerLabel": "HTTP requests in Angular can be handled using the ngFor directive.",
+      "questionId": 35,
+      "categoryId": 2,
+      "answerLabel": "By storing side effects in the component's state.",
       "isCorrect": false
     },
     {
-      "questionId": 18,
-      "answerLabel": "HTTP requests in Angular can be handled using dependency injection.",
+      "questionId": 35,
+      "categoryId": 2,
+      "answerLabel": "By avoiding the use of props in components.",
       "isCorrect": false
     },
     {
-      "questionId": 18,
-      "answerLabel": "HTTP requests in Angular can be handled using the trackBy function.",
+      "questionId": 35,
+      "categoryId": 2,
+      "answerLabel": "By using keys in lists.",
       "isCorrect": false
     },
     {
-      "questionId": 19,
-      "answerLabel": "Angular pipes are used for transforming and formatting data in templates.",
+      "questionId": 36,
+      "categoryId": 2,
+      "answerLabel": "Higher-Order Components are functions that take a component and return a new component, enhancing the original component with additional props or functionality.",
       "isCorrect": true
     },
     {
-      "questionId": 19,
-      "answerLabel": "Angular pipes are used for defining routes.",
+      "questionId": 36,
+      "categoryId": 2,
+      "answerLabel": "Higher-Order Components are React components that are rendered above other components in the DOM hierarchy.",
       "isCorrect": false
     },
     {
-      "questionId": 19,
-      "answerLabel": "Angular pipes are used for event binding.",
+      "questionId": 36,
+      "categoryId": 2,
+      "answerLabel": "Higher-Order Components are used for styling components.",
       "isCorrect": false
     },
     {
-      "questionId": 19,
-      "answerLabel": "Angular pipes are used for dependency injection.",
+      "questionId": 36,
+      "categoryId": 2,
+      "answerLabel": "Higher-Order Components handle routing in React.",
       "isCorrect": false
     },
     {
-      "questionId": 20,
-      "answerLabel": "Lazy loading in Angular is a technique for loading modules only when they are needed, improving application performance.",
+      "questionId": 37,
+      "categoryId": 2,
+      "answerLabel": "Reconciliation is the process by which React updates the DOM by comparing the virtual DOM with a previous version and applying the necessary changes.",
       "isCorrect": true
     },
     {
-      "questionId": 20,
-      "answerLabel": "Lazy loading in Angular is a technique for handling HTTP requests.",
+      "questionId": 37,
+      "categoryId": 2,
+      "answerLabel": "Reconciliation is used for managing component state.",
       "isCorrect": false
     },
     {
-      "questionId": 20,
-      "answerLabel": "Lazy loading in Angular is a technique for event binding.",
+      "questionId": 37,
+      "categoryId": 2,
+      "answerLabel": "Reconciliation handles form submissions in React.",
       "isCorrect": false
     },
     {
-      "questionId": 20,
-      "answerLabel": "Lazy loading in Angular is a technique for defining routes.",
+      "questionId": 37,
+      "categoryId": 2,
+      "answerLabel": "Reconciliation is a method for styling React components.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 38,
+      "categoryId": 2,
+      "answerLabel": "By using JavaScript conditional statements like if-else or ternary operators within the JSX to render elements conditionally.",
+      "isCorrect": true
+    },
+    {
+      "questionId": 38,
+      "categoryId": 2,
+      "answerLabel": "By using separate CSS files for each condition.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 38,
+      "categoryId": 2,
+      "answerLabel": "By creating multiple components for each condition.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 38,
+      "categoryId": 2,
+      "answerLabel": "By avoiding the use of state in components.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 39,
+      "categoryId": 2,
+      "answerLabel": "PropTypes are used to type-check the props passed to a component, ensuring they receive the correct data types.",
+      "isCorrect": true
+    },
+    {
+      "questionId": 39,
+      "categoryId": 2,
+      "answerLabel": "PropTypes are used for styling React components.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 39,
+      "categoryId": 2,
+      "answerLabel": "PropTypes handle event binding in React.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 39,
+      "categoryId": 2,
+      "answerLabel": "PropTypes are a type of React component.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 40,
+      "categoryId": 2,
+      "answerLabel": "Error boundaries are React components that catch JavaScript errors anywhere in their child component tree, log those errors, and display a fallback UI.",
+      "isCorrect": true
+    },
+    {
+      "questionId": 40,
+      "categoryId": 2,
+      "answerLabel": "Error boundaries are used for styling error messages.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 40,
+      "categoryId": 2,
+      "answerLabel": "Error boundaries handle form validation errors.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 40,
+      "categoryId": 2,
+      "answerLabel": "Error boundaries are methods for optimizing performance.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 41,
+      "categoryId": 3,
+      "answerLabel": "A PHP framework for building web applications.",
+      "isCorrect": true
+    },
+    {
+      "questionId": 41,
+      "categoryId": 3,
+      "answerLabel": "A JavaScript library for frontend development.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 41,
+      "categoryId": 3,
+      "answerLabel": "A database management system.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 41,
+      "categoryId": 3,
+      "answerLabel": "A version control system.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 42,
+      "categoryId": 3,
+      "answerLabel": "Using Composer with the command `composer create-project symfony/skeleton project-name`.",
+      "isCorrect": true
+    },
+    {
+      "questionId": 42,
+      "categoryId": 3,
+      "answerLabel": "By downloading the Symfony installer from the official website.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 42,
+      "categoryId": 3,
+      "answerLabel": "Using the Symfony GUI tool.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 42,
+      "categoryId": 3,
+      "answerLabel": "By cloning the Symfony repository from GitHub.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 43,
+      "categoryId": 3,
+      "answerLabel": "A modular package that adds specific features to a Symfony application.",
+      "isCorrect": true
+    },
+    {
+      "questionId": 43,
+      "categoryId": 3,
+      "answerLabel": "A controller in Symfony.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 43,
+      "categoryId": 3,
+      "answerLabel": "A template engine used in Symfony.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 43,
+      "categoryId": 3,
+      "answerLabel": "A database migration tool.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 44,
+      "categoryId": 3,
+      "answerLabel": "A design pattern that allows services to be injected into classes, promoting loose coupling.",
+      "isCorrect": true
+    },
+    {
+      "questionId": 44,
+      "categoryId": 3,
+      "answerLabel": "A method for handling HTTP requests.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 44,
+      "categoryId": 3,
+      "answerLabel": "A way to manage database connections.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 44,
+      "categoryId": 3,
+      "answerLabel": "A technique for front-end styling.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 45,
+      "categoryId": 3,
+      "answerLabel": "By defining routes in YAML, XML, PHP, or annotations that map URLs to controllers.",
+      "isCorrect": true
+    },
+    {
+      "questionId": 45,
+      "categoryId": 3,
+      "answerLabel": "By using the routing component of Twig.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 45,
+      "categoryId": 3,
+      "answerLabel": "By configuring routes in the `.env` file.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 45,
+      "categoryId": 3,
+      "answerLabel": "By handling routing through JavaScript.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 46,
+      "categoryId": 3,
+      "answerLabel": "Doctrine ORM is an Object-Relational Mapper that manages database interactions in Symfony.",
+      "isCorrect": true
+    },
+    {
+      "questionId": 46,
+      "categoryId": 3,
+      "answerLabel": "Doctrine ORM is a front-end framework for styling.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 46,
+      "categoryId": 3,
+      "answerLabel": "Doctrine ORM handles HTTP requests.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 46,
+      "categoryId": 3,
+      "answerLabel": "Doctrine ORM is used for routing configuration.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 47,
+      "categoryId": 3,
+      "answerLabel": "By creating a PHP class that extends `AbstractController` and defining action methods.",
+      "isCorrect": true
+    },
+    {
+      "questionId": 47,
+      "categoryId": 3,
+      "answerLabel": "By writing HTML files directly.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 47,
+      "categoryId": 3,
+      "answerLabel": "By using the Symfony CLI's controller creation command.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 47,
+      "categoryId": 3,
+      "answerLabel": "By configuring controllers in the `.env` file.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 48,
+      "categoryId": 3,
+      "answerLabel": "Twig is a templating engine used to render HTML in Symfony applications.",
+      "isCorrect": true
+    },
+    {
+      "questionId": 48,
+      "categoryId": 3,
+      "answerLabel": "Twig is a database migration tool.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 48,
+      "categoryId": 3,
+      "answerLabel": "Twig handles routing in Symfony.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 48,
+      "categoryId": 3,
+      "answerLabel": "Twig is a security component.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 49,
+      "categoryId": 3,
+      "answerLabel": "Symfony Console is a component that allows developers to create command-line commands for their applications.",
+      "isCorrect": true
+    },
+    {
+      "questionId": 49,
+      "categoryId": 3,
+      "answerLabel": "Symfony Console is used for styling command-line output.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 49,
+      "categoryId": 3,
+      "answerLabel": "Symfony Console handles HTTP requests.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 49,
+      "categoryId": 3,
+      "answerLabel": "Symfony Console is a database management tool.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 50,
+      "categoryId": 3,
+      "answerLabel": "Configurations are managed using YAML, XML, PHP, or annotations within the `config` directory.",
+      "isCorrect": true
+    },
+    {
+      "questionId": 50,
+      "categoryId": 3,
+      "answerLabel": "Configurations are managed directly in the controllers.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 50,
+      "categoryId": 3,
+      "answerLabel": "Configurations are handled through the `.env` file exclusively.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 50,
+      "categoryId": 3,
+      "answerLabel": "Configurations are not needed in Symfony.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 51,
+      "categoryId": 3,
+      "answerLabel": "Symfony Flex is a tool that streamlines the installation and configuration of Symfony bundles and recipes.",
+      "isCorrect": true
+    },
+    {
+      "questionId": 51,
+      "categoryId": 3,
+      "answerLabel": "Symfony Flex is a front-end framework.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 51,
+      "categoryId": 3,
+      "answerLabel": "Symfony Flex handles database migrations.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 51,
+      "categoryId": 3,
+      "answerLabel": "Symfony Flex is used for routing configuration.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 52,
+      "categoryId": 3,
+      "answerLabel": "Symfony provides security features like authentication, authorization, password hashing, and CSRF protection through its Security component.",
+      "isCorrect": true
+    },
+    {
+      "questionId": 52,
+      "categoryId": 3,
+      "answerLabel": "Symfony handles security by using frontend JavaScript libraries.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 52,
+      "categoryId": 3,
+      "answerLabel": "Symfony does not provide built-in security features.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 52,
+      "categoryId": 3,
+      "answerLabel": "Symfony manages security solely through the database.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 53,
+      "categoryId": 3,
+      "answerLabel": "Symfony Events allow different parts of the application to communicate by dispatching and listening to events.",
+      "isCorrect": true
+    },
+    {
+      "questionId": 53,
+      "categoryId": 3,
+      "answerLabel": "Symfony Events are used for styling components.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 53,
+      "categoryId": 3,
+      "answerLabel": "Symfony Events handle HTTP requests.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 53,
+      "categoryId": 3,
+      "answerLabel": "Symfony Events are a type of controller.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 54,
+      "categoryId": 3,
+      "answerLabel": "Forms in Symfony are managed using the Form component, which allows for building, validating, and handling form submissions.",
+      "isCorrect": true
+    },
+    {
+      "questionId": 54,
+      "categoryId": 3,
+      "answerLabel": "Forms in Symfony are created using plain HTML without any Symfony components.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 54,
+      "categoryId": 3,
+      "answerLabel": "Forms in Symfony are handled by the Security component.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 54,
+      "categoryId": 3,
+      "answerLabel": "Symfony does not support form handling.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 55,
+      "categoryId": 3,
+      "answerLabel": "By using validation constraints in the entity or form classes and leveraging Symfony’s Validator component.",
+      "isCorrect": true
+    },
+    {
+      "questionId": 55,
+      "categoryId": 3,
+      "answerLabel": "By manually checking each form field in the controller.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 55,
+      "categoryId": 3,
+      "answerLabel": "By using JavaScript for all validation.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 55,
+      "categoryId": 3,
+      "answerLabel": "Symfony does not support validation.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 56,
+      "categoryId": 3,
+      "answerLabel": "The `.env` file stores environment-specific variables like database credentials and API keys.",
+      "isCorrect": true
+    },
+    {
+      "questionId": 56,
+      "categoryId": 3,
+      "answerLabel": "The `.env` file is used for styling configurations.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 56,
+      "categoryId": 3,
+      "answerLabel": "The `.env` file handles routing configurations.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 56,
+      "categoryId": 3,
+      "answerLabel": "The `.env` file manages controller actions.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 57,
+      "categoryId": 3,
+      "answerLabel": "By using Doctrine Migrations with commands like `php bin/console doctrine:migrations:migrate` to version and apply database schema changes.",
+      "isCorrect": true
+    },
+    {
+      "questionId": 57,
+      "categoryId": 3,
+      "answerLabel": "By manually editing the database schema without any tools.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 57,
+      "categoryId": 3,
+      "answerLabel": "By using Symfony’s Security component for migrations.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 57,
+      "categoryId": 3,
+      "answerLabel": "Symfony does not support database migrations.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 58,
+      "categoryId": 3,
+      "answerLabel": "The `services.yaml` file configures service definitions and parameters for dependency injection.",
+      "isCorrect": true
+    },
+    {
+      "questionId": 58,
+      "categoryId": 3,
+      "answerLabel": "The `services.yaml` file manages routing configurations.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 58,
+      "categoryId": 3,
+      "answerLabel": "The `services.yaml` file handles form submissions.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 58,
+      "categoryId": 3,
+      "answerLabel": "The `services.yaml` file is used for frontend styling.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 59,
+      "categoryId": 3,
+      "answerLabel": "By defining custom service classes and registering them in the `services.yaml` file or using annotations for autowiring.",
+      "isCorrect": true
+    },
+    {
+      "questionId": 59,
+      "categoryId": 3,
+      "answerLabel": "By creating services directly in the controller without any configuration.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 59,
+      "categoryId": 3,
+      "answerLabel": "By using JavaScript to create services.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 59,
+      "categoryId": 3,
+      "answerLabel": "Symfony does not support custom services.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 60,
+      "categoryId": 3,
+      "answerLabel": "By using Symfony’s API Platform or making HTTP requests within controllers and services to interact with external APIs.",
+      "isCorrect": true
+    },
+    {
+      "questionId": 60,
+      "categoryId": 3,
+      "answerLabel": "Symfony cannot integrate with external APIs.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 60,
+      "categoryId": 3,
+      "answerLabel": "By using only frontend JavaScript to handle API integrations.",
+      "isCorrect": false
+    },
+    {
+      "questionId": 60,
+      "categoryId": 3,
+      "answerLabel": "By managing APIs through the Twig templating engine.",
       "isCorrect": false
     }
   ],
@@ -495,9 +1276,9 @@
       "password": "user"
     },
     {
+      "id": 3,
       "username": "test",
-      "password": "test",
-      "id": 3
+      "password": "test"
     }
   ]
 }

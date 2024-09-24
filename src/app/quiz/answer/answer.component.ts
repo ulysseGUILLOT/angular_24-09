@@ -1,5 +1,6 @@
 import { Component, Input } from '@angular/core';
 import { QuizService } from "../../shared/services/quiz.service";
+import { Answer } from 'src/app/shared/models/answer.model';
 
 @Component({
   selector: 'app-answer',
@@ -7,7 +8,7 @@ import { QuizService } from "../../shared/services/quiz.service";
   styleUrls: ['./answer.component.scss']
 })
 export class AnswerComponent {
-  @Input() answers: any[] = [];
+  @Input() answers: Answer[] = [];
   @Input() questionId: number = 0;
   isQuizFinished = this.quizService.isQuizFinished;
 

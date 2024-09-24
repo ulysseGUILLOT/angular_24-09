@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnDestroy, OnInit } from '@angular/core';
 import { QuizService } from "../../shared/services/quiz.service";
 import { Router } from "@angular/router";
 
@@ -7,12 +7,16 @@ import { Router } from "@angular/router";
   templateUrl: './result.component.html',
   styleUrls: ['./result.component.scss']
 })
-export class ResultComponent implements OnInit {
+export class ResultComponent implements OnInit, OnDestroy {
   score = 0;
   scoreTotal = this.quizService.quizContent.length;
   playerName = this.quizService.playerName;
 
   constructor(private quizService: QuizService, private router: Router) { }
+  
+  ngOnDestroy(): void {
+    this.quizService.resetQuiz();
+  }
 
   ngOnInit(): void {
     this.quizService.checkAnswers();

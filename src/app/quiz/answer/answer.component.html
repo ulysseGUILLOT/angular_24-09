@@ -1,10 +1,7 @@
 <ul class="answer_container">
   <li *ngFor="let answer of answers; let j = index">
-    <button
-      [disabled]="isQuizFinished"
-      (click)="addAnswer(answer?.answerLabel, questionId)"
-      [class.answer_container--selected]="isAnswerSelected(answer?.answerLabel, questionId)"
-    >
+    <button [disabled]="isQuizFinished" (click)="addAnswer(answer.answerLabel, answer.questionId)"
+      [class.answer_container--selected]="isAnswerSelected(answer.answerLabel, answer.questionId)">
       <span>{{ getAnswerLetter(j) }}.</span> {{ answer?.answerLabel }}
     </button>
   </li>
